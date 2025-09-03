@@ -1,0 +1,169 @@
+provider,service,resource_id,region,tags,month,hours_running,cpu_avg,mem_avg,cost_usd,last_access_days,storage_gb
+aws,EC2,aws-EC2-0,centralus,env=prod;owner=teamA,2025-07,300,22.97,23.34,53.29,,
+aws,EC2,aws-EC2-1,centralus,env=dev;owner=teamB,2025-07,200,21.19,23.86,64.27,,
+aws,EC2,aws-EC2-2,europe-west1,env=staging;owner=teamC,2025-07,100,13.31,31.51,85.72,,
+aws,EC2,aws-EC2-3,eastus,env=prod;owner=teamA,2025-07,50,8.76,0.0,156.21,,
+aws,EC2,aws-EC2-4,us-east-1,env=dev;owner=teamB,2025-07,300,10.97,0.0,124.05,,
+aws,EC2,aws-EC2-5,us-west-2,env=staging;owner=teamC,2025-07,100,3.75,26.47,89.07,,
+aws,EC2,aws-EC2-6,eastus,env=prod;owner=teamA,2025-07,50,12.0,36.37,83.9,,
+aws,EC2,aws-EC2-7,eastus,env=dev;owner=teamB,2025-07,720,36.52,18.6,119.67,,
+aws,EC2,aws-EC2-8,us-central1,env=staging;owner=teamC,2025-07,200,23.66,16.55,139.38,,
+aws,EC2,aws-EC2-9,eastus,env=prod;owner=teamA,2025-07,50,4.07,33.86,130.28,,
+aws,EC2,aws-EC2-10,us-west-2,env=dev;owner=teamB,2025-07,200,16.84,21.39,166.42,,
+aws,EC2,aws-EC2-11,us-central1,env=staging;owner=teamC,2025-07,100,12.62,26.16,145.15,,
+aws,RDS,aws-RDS-0,us-east-1,env=prod;owner=teamA,2025-07,300,5.82,,173.26,,
+aws,RDS,aws-RDS-1,eastus,env=dev;owner=teamB,2025-07,300,6.98,,130.42,,
+aws,RDS,aws-RDS-2,europe-west1,env=staging;owner=teamC,2025-07,200,3.31,,178.53,,
+aws,RDS,aws-RDS-3,centralus,env=prod;owner=teamA,2025-07,300,11.8,,66.11,,
+aws,RDS,aws-RDS-4,centralus,env=dev;owner=teamB,2025-07,720,0.0,,184.17,,
+aws,RDS,aws-RDS-5,centralus,env=staging;owner=teamC,2025-07,300,3.61,,212.28,,
+aws,RDS,aws-RDS-6,us-central1,env=prod;owner=teamA,2025-07,50,0.0,,169.31,,
+aws,RDS,aws-RDS-7,us-central1,env=dev;owner=teamB,2025-07,200,1.5,,113.19,,
+aws,RDS,aws-RDS-8,us-central1,env=staging;owner=teamC,2025-07,100,9.04,,121.14,,
+aws,RDS,aws-RDS-9,centralus,env=prod;owner=teamA,2025-07,720,0.0,,131.42,,
+aws,RDS,aws-RDS-10,europe-west1,env=dev;owner=teamB,2025-07,300,7.05,,141.66,,
+aws,RDS,aws-RDS-11,eastus,env=staging;owner=teamC,2025-07,300,9.15,,139.73,,
+aws,S3,aws-S3-0,eastus,env=prod;owner=teamA,2025-07,200,9.63,,32.42,43.0,435.45
+aws,S3,aws-S3-1,centralus,env=dev;owner=teamB,2025-07,300,4.61,,7.22,50.0,373.34
+aws,S3,aws-S3-2,centralus,env=staging;owner=teamC,2025-07,200,0.0,,27.65,39.0,971.55
+aws,S3,aws-S3-3,us-east-1,env=prod;owner=teamA,2025-07,200,1.75,,43.89,18.0,81.62
+aws,S3,aws-S3-4,us-east-1,env=dev;owner=teamB,2025-07,50,0.0,,65.69,76.0,584.51
+aws,S3,aws-S3-5,centralus,env=staging;owner=teamC,2025-07,200,19.75,,174.52,44.0,807.94
+aws,S3,aws-S3-6,us-west-2,env=prod;owner=teamA,2025-07,200,7.28,,7.86,76.0,279.84
+aws,S3,aws-S3-7,us-central1,env=dev;owner=teamB,2025-07,300,0.77,,14.43,103.0,358.43
+aws,S3,aws-S3-8,centralus,env=staging;owner=teamC,2025-07,300,0.0,,4.06,42.0,607.0
+aws,S3,aws-S3-9,us-west-2,env=prod;owner=teamA,2025-07,300,0.0,,115.15,111.0,718.33
+aws,S3,aws-S3-10,us-west-2,env=dev;owner=teamB,2025-07,300,0.0,,78.37,117.0,72.37
+aws,S3,aws-S3-11,centralus,env=staging;owner=teamC,2025-07,720,1.19,,48.77,23.0,625.4
+azure,VM,azure-VM-0,us-east-1,env=prod;owner=teamA,2025-07,300,27.65,12.22,102.87,,
+azure,VM,azure-VM-1,europe-west1,env=dev;owner=teamB,2025-07,100,28.65,16.84,133.94,,
+azure,VM,azure-VM-2,us-west-2,env=staging;owner=teamC,2025-07,200,26.54,46.46,60.88,,
+azure,VM,azure-VM-3,us-east-1,env=prod;owner=teamA,2025-07,100,7.06,37.59,199.51,,
+azure,VM,azure-VM-4,centralus,env=dev;owner=teamB,2025-07,100,17.95,20.4,200.59,,
+azure,VM,azure-VM-5,centralus,env=staging;owner=teamC,2025-07,50,10.65,34.86,233.81,,
+azure,VM,azure-VM-6,centralus,env=prod;owner=teamA,2025-07,200,4.81,33.64,119.31,,
+azure,VM,azure-VM-7,us-east-1,env=dev;owner=teamB,2025-07,300,22.13,1.76,69.16,,
+azure,VM,azure-VM-8,us-east-1,env=staging;owner=teamC,2025-07,100,24.26,14.71,122.52,,
+azure,VM,azure-VM-9,europe-west1,env=prod;owner=teamA,2025-07,100,16.63,24.86,131.44,,
+azure,VM,azure-VM-10,us-east-1,env=dev;owner=teamB,2025-07,720,16.76,33.88,69.19,,
+azure,VM,azure-VM-11,europe-west1,env=staging;owner=teamC,2025-07,200,2.85,13.89,89.22,,
+azure,Blob,azure-Blob-0,europe-west1,env=prod;owner=teamA,2025-07,50,6.3,,150.78,43.0,286.19
+azure,Blob,azure-Blob-1,us-west-2,env=dev;owner=teamB,2025-07,200,0.0,,71.99,97.0,944.73
+azure,Blob,azure-Blob-2,us-west-2,env=staging;owner=teamC,2025-07,720,3.04,,60.43,1.0,204.18
+azure,Blob,azure-Blob-3,centralus,env=prod;owner=teamA,2025-07,50,4.95,,11.64,41.0,468.07
+azure,Blob,azure-Blob-4,europe-west1,env=dev;owner=teamB,2025-07,200,0.0,,30.79,40.0,537.46
+azure,Blob,azure-Blob-5,us-central1,env=staging;owner=teamC,2025-07,100,1.41,,74.49,33.0,606.51
+azure,Blob,azure-Blob-6,eastus,env=prod;owner=teamA,2025-07,300,0.0,,76.12,49.0,308.62
+azure,Blob,azure-Blob-7,centralus,env=dev;owner=teamB,2025-07,100,4.22,,38.57,53.0,378.45
+azure,Blob,azure-Blob-8,us-east-1,env=staging;owner=teamC,2025-07,100,0.0,,144.68,53.0,420.16
+azure,Blob,azure-Blob-9,us-central1,env=prod;owner=teamA,2025-07,100,0.0,,56.03,88.0,644.47
+azure,Blob,azure-Blob-10,eastus,env=dev;owner=teamB,2025-07,200,21.22,,106.95,68.0,330.0
+azure,Blob,azure-Blob-11,eastus,env=staging;owner=teamC,2025-07,50,0.0,,86.95,21.0,649.97
+gcp,Compute Engine,gcp-ComputeEngine-0,us-west-2,env=prod;owner=teamA,2025-07,300,0.0,9.4,93.6,,
+gcp,Compute Engine,gcp-ComputeEngine-1,us-central1,env=dev;owner=teamB,2025-07,720,19.31,25.7,260.88,,
+gcp,Compute Engine,gcp-ComputeEngine-2,eastus,env=staging;owner=teamC,2025-07,720,27.73,43.53,190.35,,
+gcp,Compute Engine,gcp-ComputeEngine-3,centralus,env=prod;owner=teamA,2025-07,200,23.31,44.03,45.73,,
+gcp,Compute Engine,gcp-ComputeEngine-4,us-central1,env=dev;owner=teamB,2025-07,300,22.46,38.63,51.3,,
+gcp,Compute Engine,gcp-ComputeEngine-5,us-west-2,env=staging;owner=teamC,2025-07,200,23.91,19.16,132.46,,
+gcp,Compute Engine,gcp-ComputeEngine-6,us-west-2,env=prod;owner=teamA,2025-07,100,6.75,40.38,237.08,,
+gcp,Compute Engine,gcp-ComputeEngine-7,us-central1,env=dev;owner=teamB,2025-07,300,17.6,35.8,138.44,,
+gcp,Compute Engine,gcp-ComputeEngine-8,centralus,env=staging;owner=teamC,2025-07,200,18.51,30.94,232.23,,
+gcp,Compute Engine,gcp-ComputeEngine-9,europe-west1,env=prod;owner=teamA,2025-07,300,34.88,3.55,46.77,,
+gcp,Compute Engine,gcp-ComputeEngine-10,europe-west1,env=dev;owner=teamB,2025-07,300,2.66,29.36,68.24,,
+gcp,Compute Engine,gcp-ComputeEngine-11,europe-west1,env=staging;owner=teamC,2025-07,300,25.91,25.15,175.86,,
+gcp,Cloud Storage,gcp-CloudStorage-0,us-central1,env=prod;owner=teamA,2025-07,50,0.0,,27.1,108.0,432.24
+gcp,Cloud Storage,gcp-CloudStorage-1,us-central1,env=dev;owner=teamB,2025-07,720,0.0,,50.82,11.0,648.79
+gcp,Cloud Storage,gcp-CloudStorage-2,us-central1,env=staging;owner=teamC,2025-07,100,11.24,,173.59,95.0,325.21
+gcp,Cloud Storage,gcp-CloudStorage-3,centralus,env=prod;owner=teamA,2025-07,200,0.0,,103.51,84.0,463.24
+gcp,Cloud Storage,gcp-CloudStorage-4,europe-west1,env=dev;owner=teamB,2025-07,300,0.9,,49.96,84.0,382.24
+gcp,Cloud Storage,gcp-CloudStorage-5,us-east-1,env=staging;owner=teamC,2025-07,50,2.32,,114.26,71.0,380.65
+gcp,Cloud Storage,gcp-CloudStorage-6,eastus,env=prod;owner=teamA,2025-07,200,13.27,,12.26,67.0,714.41
+gcp,Cloud Storage,gcp-CloudStorage-7,eastus,env=dev;owner=teamB,2025-07,100,0.0,,26.86,69.0,498.86
+gcp,Cloud Storage,gcp-CloudStorage-8,us-east-1,env=staging;owner=teamC,2025-07,300,8.52,,91.1,82.0,365.06
+gcp,Cloud Storage,gcp-CloudStorage-9,us-central1,env=prod;owner=teamA,2025-07,200,0.0,,48.44,115.0,288.97
+gcp,Cloud Storage,gcp-CloudStorage-10,centralus,env=dev;owner=teamB,2025-07,50,2.24,,45.76,83.0,324.55
+gcp,Cloud Storage,gcp-CloudStorage-11,us-east-1,env=staging;owner=teamC,2025-07,720,0.0,,8.83,109.0,881.46
+aws,EC2,aws-EC2-0,us-west-2,env=prod;owner=teamA,2025-08,200,9.24,22.18,147.76,,
+aws,EC2,aws-EC2-1,eastus,env=dev;owner=teamB,2025-08,200,7.59,15.92,67.5,,
+aws,EC2,aws-EC2-2,europe-west1,env=staging;owner=teamC,2025-08,300,0.0,29.35,66.1,,
+aws,EC2,aws-EC2-3,us-west-2,env=prod;owner=teamA,2025-08,720,22.92,45.22,16.18,,
+aws,EC2,aws-EC2-4,us-east-1,env=dev;owner=teamB,2025-08,720,29.79,19.37,137.73,,
+aws,EC2,aws-EC2-5,us-east-1,env=staging;owner=teamC,2025-08,200,7.03,23.63,194.27,,
+aws,EC2,aws-EC2-6,us-central1,env=prod;owner=teamA,2025-08,300,21.42,47.94,129.99,,
+aws,EC2,aws-EC2-7,centralus,env=dev;owner=teamB,2025-08,100,26.08,21.24,24.05,,
+aws,EC2,aws-EC2-8,centralus,env=staging;owner=teamC,2025-08,720,9.28,16.95,88.69,,
+aws,EC2,aws-EC2-9,us-central1,env=prod;owner=teamA,2025-08,200,15.32,39.15,124.05,,
+aws,EC2,aws-EC2-10,centralus,env=dev;owner=teamB,2025-08,200,12.37,55.47,155.62,,
+aws,EC2,aws-EC2-11,europe-west1,env=staging;owner=teamC,2025-08,0,0.0,19.8,99.46,,
+aws,RDS,aws-RDS-0,centralus,env=prod;owner=teamA,2025-08,200,16.11,,196.44,,
+aws,RDS,aws-RDS-1,eastus,env=dev;owner=teamB,2025-08,200,0.0,,163.05,,
+aws,RDS,aws-RDS-2,us-central1,env=staging;owner=teamC,2025-08,300,2.2,,6.97,,
+aws,RDS,aws-RDS-3,us-west-2,env=prod;owner=teamA,2025-08,200,0.0,,116.67,,
+aws,RDS,aws-RDS-4,centralus,env=dev;owner=teamB,2025-08,100,0.0,,192.35,,
+aws,RDS,aws-RDS-5,centralus,env=staging;owner=teamC,2025-08,100,0.0,,115.48,,
+aws,RDS,aws-RDS-6,us-east-1,env=prod;owner=teamA,2025-08,100,3.67,,63.61,,
+aws,RDS,aws-RDS-7,us-west-2,env=dev;owner=teamB,2025-08,300,0.0,,177.31,,
+aws,RDS,aws-RDS-8,us-west-2,env=staging;owner=teamC,2025-08,300,0.0,,150.25,,
+aws,RDS,aws-RDS-9,us-east-1,env=prod;owner=teamA,2025-08,50,0.0,,86.46,,
+aws,RDS,aws-RDS-10,us-east-1,env=dev;owner=teamB,2025-08,720,0.0,,150.78,,
+aws,RDS,aws-RDS-11,us-east-1,env=staging;owner=teamC,2025-08,50,19.65,,122.12,,
+aws,S3,aws-S3-0,centralus,env=prod;owner=teamA,2025-08,200,19.64,,33.17,110.0,471.92
+aws,S3,aws-S3-1,europe-west1,env=dev;owner=teamB,2025-08,300,0.0,,0.82,29.0,644.88
+aws,S3,aws-S3-2,us-west-2,env=staging;owner=teamC,2025-08,300,1.92,,140.83,5.0,712.85
+aws,S3,aws-S3-3,us-central1,env=prod;owner=teamA,2025-08,720,0.0,,229.73,104.0,779.89
+aws,S3,aws-S3-4,us-central1,env=dev;owner=teamB,2025-08,100,0.0,,54.55,22.0,797.4
+aws,S3,aws-S3-5,us-central1,env=staging;owner=teamC,2025-08,50,2.23,,48.63,71.0,551.67
+aws,S3,aws-S3-6,eastus,env=prod;owner=teamA,2025-08,200,10.55,,84.22,64.0,880.78
+aws,S3,aws-S3-7,europe-west1,env=dev;owner=teamB,2025-08,200,5.39,,21.72,108.0,332.9
+aws,S3,aws-S3-8,europe-west1,env=staging;owner=teamC,2025-08,200,0.0,,80.72,73.0,409.64
+aws,S3,aws-S3-9,centralus,env=prod;owner=teamA,2025-08,100,0.0,,5.96,11.0,378.22
+aws,S3,aws-S3-10,europe-west1,env=dev;owner=teamB,2025-08,0,0.0,,53.71,31.0,625.23
+aws,S3,aws-S3-11,centralus,env=staging;owner=teamC,2025-08,720,0.0,,167.6,100.0,904.9
+azure,VM,azure-VM-0,europe-west1,env=prod;owner=teamA,2025-08,300,8.9,32.66,230.82,,
+azure,VM,azure-VM-1,eastus,env=dev;owner=teamB,2025-08,100,20.66,32.66,20.31,,
+azure,VM,azure-VM-2,us-west-2,env=staging;owner=teamC,2025-08,200,26.82,4.78,244.02,,
+azure,VM,azure-VM-3,us-east-1,env=prod;owner=teamA,2025-08,300,0.0,17.78,165.62,,
+azure,VM,azure-VM-4,us-central1,env=dev;owner=teamB,2025-08,300,17.28,12.71,107.21,,
+azure,VM,azure-VM-5,eastus,env=staging;owner=teamC,2025-08,720,19.6,29.45,83.76,,
+azure,VM,azure-VM-6,eastus,env=prod;owner=teamA,2025-08,300,24.68,22.73,151.92,,
+azure,VM,azure-VM-7,centralus,env=dev;owner=teamB,2025-08,300,24.96,21.18,100.86,,
+azure,VM,azure-VM-8,europe-west1,env=staging;owner=teamC,2025-08,200,25.42,27.92,222.56,,
+azure,VM,azure-VM-9,us-east-1,env=prod;owner=teamA,2025-08,200,26.25,28.0,168.34,,
+azure,VM,azure-VM-10,centralus,env=dev;owner=teamB,2025-08,200,21.27,22.37,173.54,,
+azure,VM,azure-VM-11,centralus,env=staging;owner=teamC,2025-08,200,18.96,0.0,205.95,,
+azure,Blob,azure-Blob-0,us-central1,env=prod;owner=teamA,2025-08,300,0.0,,20.98,59.0,619.9
+azure,Blob,azure-Blob-1,centralus,env=dev;owner=teamB,2025-08,720,15.83,,94.69,89.0,752.47
+azure,Blob,azure-Blob-2,centralus,env=staging;owner=teamC,2025-08,300,0.72,,16.34,90.0,521.76
+azure,Blob,azure-Blob-3,us-central1,env=prod;owner=teamA,2025-08,200,0.0,,180.43,65.0,266.59
+azure,Blob,azure-Blob-4,centralus,env=dev;owner=teamB,2025-08,300,0.0,,21.87,77.0,603.36
+azure,Blob,azure-Blob-5,us-west-2,env=staging;owner=teamC,2025-08,100,18.77,,18.5,41.0,371.77
+azure,Blob,azure-Blob-6,centralus,env=prod;owner=teamA,2025-08,100,0.0,,42.13,19.0,545.13
+azure,Blob,azure-Blob-7,eastus,env=dev;owner=teamB,2025-08,300,26.44,,51.56,95.0,681.44
+azure,Blob,azure-Blob-8,centralus,env=staging;owner=teamC,2025-08,50,0.0,,123.11,88.0,252.6
+azure,Blob,azure-Blob-9,us-central1,env=prod;owner=teamA,2025-08,720,0.0,,197.32,46.0,630.99
+azure,Blob,azure-Blob-10,us-west-2,env=dev;owner=teamB,2025-08,300,0.0,,84.65,40.0,713.06
+azure,Blob,azure-Blob-11,us-west-2,env=staging;owner=teamC,2025-08,720,0.0,,32.4,110.0,176.23
+gcp,Compute Engine,gcp-ComputeEngine-0,eastus,env=prod;owner=teamA,2025-08,720,13.57,25.99,148.3,,
+gcp,Compute Engine,gcp-ComputeEngine-1,centralus,env=dev;owner=teamB,2025-08,200,2.7,34.65,110.57,,
+gcp,Compute Engine,gcp-ComputeEngine-2,eastus,env=staging;owner=teamC,2025-08,720,7.83,31.2,103.87,,
+gcp,Compute Engine,gcp-ComputeEngine-3,us-central1,env=prod;owner=teamA,2025-08,100,6.93,8.92,128.93,,
+gcp,Compute Engine,gcp-ComputeEngine-4,us-east-1,env=dev;owner=teamB,2025-08,300,4.37,2.06,93.12,,
+gcp,Compute Engine,gcp-ComputeEngine-5,us-west-2,env=staging;owner=teamC,2025-08,200,0.0,24.61,87.39,,
+gcp,Compute Engine,gcp-ComputeEngine-6,europe-west1,env=prod;owner=teamA,2025-08,200,28.4,12.99,27.92,,
+gcp,Compute Engine,gcp-ComputeEngine-7,us-central1,env=dev;owner=teamB,2025-08,100,45.96,10.87,132.22,,
+gcp,Compute Engine,gcp-ComputeEngine-8,us-east-1,env=staging;owner=teamC,2025-08,100,19.1,22.79,123.82,,
+gcp,Compute Engine,gcp-ComputeEngine-9,centralus,env=prod;owner=teamA,2025-08,50,27.52,36.23,196.29,,
+gcp,Compute Engine,gcp-ComputeEngine-10,centralus,env=dev;owner=teamB,2025-08,0,0.0,11.45,125.92,,
+gcp,Compute Engine,gcp-ComputeEngine-11,centralus,env=staging;owner=teamC,2025-08,300,16.7,26.72,178.7,,
+gcp,Cloud Storage,gcp-CloudStorage-0,centralus,env=prod;owner=teamA,2025-08,720,8.14,,11.42,115.0,76.68
+gcp,Cloud Storage,gcp-CloudStorage-1,us-central1,env=dev;owner=teamB,2025-08,50,0.0,,126.79,4.0,692.48
+gcp,Cloud Storage,gcp-CloudStorage-2,us-west-2,env=staging;owner=teamC,2025-08,200,3.26,,30.07,109.0,125.34
+gcp,Cloud Storage,gcp-CloudStorage-3,eastus,env=prod;owner=teamA,2025-08,300,11.39,,25.24,75.0,475.79
+gcp,Cloud Storage,gcp-CloudStorage-4,eastus,env=dev;owner=teamB,2025-08,200,12.47,,85.19,27.0,541.6
+gcp,Cloud Storage,gcp-CloudStorage-5,us-west-2,env=staging;owner=teamC,2025-08,720,0.0,,35.06,3.0,469.64
+gcp,Cloud Storage,gcp-CloudStorage-6,us-east-1,env=prod;owner=teamA,2025-08,300,3.08,,57.61,17.0,177.89
+gcp,Cloud Storage,gcp-CloudStorage-7,europe-west1,env=dev;owner=teamB,2025-08,100,1.01,,56.75,8.0,255.41
+gcp,Cloud Storage,gcp-CloudStorage-8,us-central1,env=staging;owner=teamC,2025-08,300,0.0,,109.69,2.0,564.01
+gcp,Cloud Storage,gcp-CloudStorage-9,us-central1,env=prod;owner=teamA,2025-08,300,9.83,,15.23,100.0,627.57
+gcp,Cloud Storage,gcp-CloudStorage-10,us-west-2,env=dev;owner=teamB,2025-08,200,14.04,,15.27,20.0,413.0
+gcp,Cloud Storage,gcp-CloudStorage-11,centralus,env=staging;owner=teamC,2025-08,300,1.99,,8.31,43.0,148.33
